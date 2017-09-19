@@ -1,4 +1,4 @@
-hive> SELECT name FROM employee WHERE deductions['Federal Taxes'] > 0.2;   SELECT name FROM employee WHERE deductions['Federal Taxes'] > 0.2;
+hive> SELECT name FROM employee WHERE deductions['Federal Taxes'] > 0.2;
 OK
 John Doe
 Mary Smith
