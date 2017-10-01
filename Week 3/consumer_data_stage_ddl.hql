@@ -12,3 +12,12 @@ date_sent_to_company STRING,
 timely_response STRING, 
 consumer_disputed STRING, 
 compaint_id  STRING )
+PARTITIONED BY (
+`year` int,
+`month` int,
+`day` int)
+
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS ORC
+LOCATION '/data/stage/consumer_data_stage';
