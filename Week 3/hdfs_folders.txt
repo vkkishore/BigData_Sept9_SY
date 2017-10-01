@@ -1,0 +1,4 @@
+hdfs@edgenode:/home/ubuntu$ hdfs dfs -ls /data/raw/consumer_data_raw
+hdfs@edgenode:/home/ubuntu$ hdfs dfs -ls /data/stage/consumer_data_stage
+hdfs@edgenode:/home/ubuntu$ hdfs dfs -ls /data/pub/consumer_data_pub
+hdfs@edgenode:/home/ubuntu$
